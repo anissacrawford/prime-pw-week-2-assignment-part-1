@@ -71,6 +71,7 @@ if (luckyNumber == 2 && adventurous){
 // console logs "I have enough pets" if the value of `pets` is equal to the value of `allowedPets`,
 // and console logs "Oh no, I have too many pets!"
 // if the value of `pets` is greater than the value of `allowedPets`.
+
 if (pets < allowedPets) {
   console.log('I can have more pets!');
 } else if (pets == allowedPets) {
@@ -88,6 +89,7 @@ if (pets < allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
+
 let mostPets
 
 if (pets > friendsPets) {
@@ -100,7 +102,7 @@ if (pets > friendsPets) {
   console.log('You have an equal amount of pets');
 } else {
   console.log('Please enter amount of pets');
-}
+} //not really sure if this is what the question was asking for - i tried 
 
 // 17 - Write a *switch* statement that logs:
 //      "First is the worst" if your lucky number is 1
@@ -124,6 +126,7 @@ switch (luckyNumber) {
     break;
   }
 
-
-
 // 18 -- Rewrite question 13 with a `ternary` operator. You'll need to do research!
+
+  adventurous = (true) ? ('Adventures are great'):('How about we stay home');
+  console.log(adventurous);
